@@ -2,9 +2,10 @@
 
 Bot Telegram untuk DOR yang sudah siap digunakan di VPS.
 
-## File yang Diperlukan
-- `autoftbot` 
-- `.env` (file konfigurasi)
+## Cara Mendapatkan File
+
+- Download file `autoftbot` dari halaman [Releases](https://github.com/AutoFTbot/anubg/releases) repository ini.
+- Siapkan file `.env` (file konfigurasi, **tidak dibagikan publik**).
 
 ## Cara Deploy ke VPS
 
@@ -15,8 +16,8 @@ Bot Telegram untuk DOR yang sudah siap digunakan di VPS.
    cd dor-bot
 
    # Upload kedua file ke folder tersebut
-   # - autoftbot
-   # - .env
+   # - autoftbot (download dari halaman Releases)
+   # - .env (isi sendiri)
    ```
 
 2. **Jalankan Bot**
@@ -34,10 +35,10 @@ Bot Telegram untuk DOR yang sudah siap digunakan di VPS.
    screen -S dor-bot
    ./autoftbot
    # Tekan Ctrl+A+D untuk keluar dari screen
-   
+
    # Untuk melihat screen yang berjalan
    screen -ls
-   
+
    # Untuk kembali ke screen
    screen -r dor-bot
    ```
@@ -54,9 +55,9 @@ Bot Telegram untuk DOR yang sudah siap digunakan di VPS.
    - Periksa permission file `.env`
 
 ## Catatan Penting
-- File `.env` harus disiapkan secara terpisah
-- Backup file `.env` di tempat yang aman
-- Jangan share file `.env` ke publik
+- File `.env` harus disiapkan secara terpisah dan tidak dibagikan di repo.
+- Backup file `.env` di tempat yang aman.
+- Jangan share file `.env` ke publik.
 
 ## Support
-Jika mengalami masalah, silakan hubungi developer untuk bantuan lebih lanjut. 
+Jika mengalami masalah, silakan hubungi developer untuk bantuan lebih lanjut.
