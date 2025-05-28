@@ -51,7 +51,7 @@ Bot Telegram untuk DOR yang sudah siap digunakan di VPS.
    ```
 
 2. **Error: Cannot find .env**
-   - Pastikan file `.env` ada di folder yang sama dengan executable
+   - Pastikan file `.env` ada di folder yang sama
    - Periksa permission file `.env`
 
 ## Catatan Penting
