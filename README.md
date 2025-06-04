@@ -61,4 +61,5 @@ Bot Telegram untuk DOR yang sudah siap digunakan di VPS.
 
 ## Support
 Jika mengalami masalah, silakan hubungi developer untuk bantuan lebih lanjut.
-Ini adalah tes untuk badge YOLO.
+Ini adalah tes untuk badge YOLO ya
+coba badge
